@@ -401,39 +401,6 @@ export interface CustomSelectProps {
 export type SetValueNumbersOrUndefined = (value: number[] | undefined) => void
 export type SetValuePeriod = (value: PeriodType) => void
 export type SetInternalError = (value: boolean) => void
-export interface DefaultLocale {
-  everyText: string
-  emptyMonths: string
-  emptyMonthDays: string
-  emptyMonthDaysShort: string
-  emptyWeekDays: string
-  emptyWeekDaysShort: string
-  emptyHours: string
-  emptyMinutes: string
-  emptyMinutesForHourPeriod: string
-  yearOption: string
-  monthOption: string
-  weekOption: string
-  dayOption: string
-  hourOption: string
-  minuteOption: string
-  rebootOption: string
-  prefixPeriod: string
-  prefixMonths: string
-  prefixMonthDays: string
-  prefixWeekDays: string
-  prefixWeekDaysForMonthAndYearPeriod: string
-  prefixHours: string
-  prefixMinutes: string
-  prefixMinutesForHourPeriod: string
-  suffixMinutesForHourPeriod: string
-  errorInvalidCron: string
-  clearButtonText: string
-  weekDays: string[]
-  months: string[]
-  altWeekDays: string[]
-  altMonths: string[]
-}
 export interface Classes {
   [key: string]: boolean
 }
